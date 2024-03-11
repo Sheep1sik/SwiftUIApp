@@ -11,6 +11,12 @@
 		E87F642A2B9EF1B700B66D14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F64292B9EF1B700B66D14 /* ContentView.swift */; };
 		E87F642C2B9EF1B900B66D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87F642B2B9EF1B900B66D14 /* Assets.xcassets */; };
 		E87F642F2B9EF1B900B66D14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87F642E2B9EF1B900B66D14 /* Preview Assets.xcassets */; };
+		E87F64362B9EF8AB00B66D14 /* Launch-Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87F64352B9EF8AB00B66D14 /* Launch-Screen.storyboard */; };
+		E87F64392B9EFD2B00B66D14 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F64382B9EFD2B00B66D14 /* CardView.swift */; };
+		E87F643B2B9F045A00B66D14 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F643A2B9F045A00B66D14 /* CardModel.swift */; };
+		E87F643D2B9F050B00B66D14 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F643C2B9F050B00B66D14 /* CardData.swift */; };
+		E87F643F2B9F0C7C00B66D14 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = E87F643E2B9F0C7C00B66D14 /* Sounds */; };
+		E87F64412B9F0CA700B66D14 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F64402B9F0CA700B66D14 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		E87F64292B9EF1B700B66D14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E87F642B2B9EF1B900B66D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87F642E2B9EF1B900B66D14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E87F64352B9EF8AB00B66D14 /* Launch-Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch-Screen.storyboard"; sourceTree = "<group>"; };
+		E87F64382B9EFD2B00B66D14 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E87F643A2B9F045A00B66D14 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		E87F643C2B9F050B00B66D14 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		E87F643E2B9F0C7C00B66D14 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		E87F64402B9F0CA700B66D14 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +63,15 @@
 		E87F64262B9EF1B700B66D14 /* Learn by Doing */ = {
 			isa = PBXGroup;
 			children = (
+				E87F643E2B9F0C7C00B66D14 /* Sounds */,
 				E87F64272B9EF1B700B66D14 /* Learn_by_DoingApp.swift */,
 				E87F64292B9EF1B700B66D14 /* ContentView.swift */,
+				E87F64382B9EFD2B00B66D14 /* CardView.swift */,
+				E87F643A2B9F045A00B66D14 /* CardModel.swift */,
+				E87F643C2B9F050B00B66D14 /* CardData.swift */,
+				E87F64402B9F0CA700B66D14 /* PlaySound.swift */,
 				E87F642B2B9EF1B900B66D14 /* Assets.xcassets */,
+				E87F64352B9EF8AB00B66D14 /* Launch-Screen.storyboard */,
 				E87F642D2B9EF1B900B66D14 /* Preview Content */,
 			);
 			path = "Learn by Doing";
@@ -125,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87F64362B9EF8AB00B66D14 /* Launch-Screen.storyboard in Resources */,
 				E87F642F2B9EF1B900B66D14 /* Preview Assets.xcassets in Resources */,
+				E87F643F2B9F0C7C00B66D14 /* Sounds in Resources */,
 				E87F642C2B9EF1B900B66D14 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87F643D2B9F050B00B66D14 /* CardData.swift in Sources */,
+				E87F64412B9F0CA700B66D14 /* PlaySound.swift in Sources */,
 				E87F642A2B9EF1B700B66D14 /* ContentView.swift in Sources */,
+				E87F643B2B9F045A00B66D14 /* CardModel.swift in Sources */,
+				E87F64392B9EFD2B00B66D14 /* CardView.swift in Sources */,
 				E87F64282B9EF1B700B66D14 /* Learn_by_DoingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,17 +288,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Learn by Doing/Preview Content\"";
 				DEVELOPMENT_TEAM = 52YSN62MCL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn-by-Doing-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch-Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,17 +320,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Learn by Doing/Preview Content\"";
 				DEVELOPMENT_TEAM = 52YSN62MCL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn-by-Doing-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch-Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
